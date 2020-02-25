@@ -1,5 +1,13 @@
 package _04_hospital;
 
-public class Patient extends Hospital{
+public class Patient {
+	boolean feelsCaredFor = false;
 
+	public void checkPulse() {
+		feelsCaredFor = true;
+	}
+
+	public boolean feelsCaredFor() {
+		return feelsCaredFor;
+	}
 }
